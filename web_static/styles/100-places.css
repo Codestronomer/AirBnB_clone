@@ -79,3 +79,78 @@
 .number_rooms p {
         margin-top: 50px;
 }
+
+article .amenities {
+        margin-top: 40px;
+        display: block;
+        text-align: left;
+}
+
+article .amenities h2 {
+        font-size: 16px;
+        border-bottom: 1px solid #DDDDDD;
+        text-align: left;
+}
+
+article .amenities li {
+        list-style: none;
+        height: 20px;
+        line-height: 20px;
+        margin-left: -12%;
+}
+
+article .amenities li p {
+        margin-left: 30px;
+}
+
+
+
+article .amenities li.tv {
+        background: url('/web_static/images/icon_tv.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+}
+
+article .amenities li.wifi {
+        background: url('/web_static/images/icon_wifi.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+}
+
+article .amenities li.pets {
+        background: url('/web_static/images/icon_pets.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+}
+
+article .reviews {
+        margin-top: 40px;
+        align-items: flex-start;
+}
+
+article .reviews h2 {
+        font-size: 16px;
+        border-bottom: 1px solid #DDDDDD;
+        text-align: left;
+}
+
+article .reviews ul {
+        text-align: left;
+        list-style: none;
+        margin-left: -40px;
+}
+
+article .reviews li {
+        list-style: none;
+        text-align: left;
+}
+
+article .reviews li h3 {
+        font-size: 14px;
+        margin-bottom: 2px;
+}
+
+article .reviews li p {
+        font-size: 12px;
+        margin-top: 0;
+}
